@@ -35,9 +35,9 @@ public class VentaPrincipal extends javax.swing.JFrame {
 	try {
 	    ClaseJose clase = new ClaseJose();
 	    if (!clase.cigarParty(30, false) && clase.cigarParty(50, false) && clase.cigarParty(70, true)) {
-		jPanel1.setBackground(Color.green);
+		jPanel2.setBackground(Color.green);
 	    } else {
-		jPanel1.setBackground(Color.orange);
+		jPanel2.setBackground(Color.orange);
 	    }
 	} catch (Exception e) {
 	}
@@ -46,9 +46,9 @@ public class VentaPrincipal extends javax.swing.JFrame {
 	try {
 	    ClaseDaniel clase = new ClaseDaniel();
 	    if (clase.love6(6, 4) && !clase.love6(4, 5) && clase.love6(1, 5)) {
-		jPanel1.setBackground(Color.green);
+		jPanel3.setBackground(Color.green);
 	    } else {
-		jPanel1.setBackground(Color.orange);
+		jPanel3.setBackground(Color.orange);
 	    }
 	} catch (Exception e) {
 	}
