@@ -42,13 +42,24 @@ public class VentaPrincipal extends javax.swing.JFrame {
 	} catch (Exception e) {
 	}
 
+	//Clase Alejandro
+	try {
+	    ClaseAlejandro clase = new ClaseAlejandro();
+	    if (!clase.more20(20) && clase.more20(21) && clase.more20(22)) {
+		jPanel3.setBackground(Color.green);
+	    } else {
+		jPanel3.setBackground(Color.orange);
+	    }
+	} catch (Exception e) {
+	}
+	
 	//Clase Daniel
 	try {
 	    ClaseDaniel clase = new ClaseDaniel();
 	    if (clase.love6(6, 4) && !clase.love6(4, 5) && clase.love6(1, 5)) {
-		jPanel3.setBackground(Color.green);
+		jPanel4.setBackground(Color.green);
 	    } else {
-		jPanel3.setBackground(Color.orange);
+		jPanel4.setBackground(Color.orange);
 	    }
 	} catch (Exception e) {
 	}
